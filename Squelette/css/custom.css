@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Arvo&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
   --primary-color: #f74c3c;
@@ -104,6 +105,101 @@ main > section:first-of-type {
 }
 
 
+.containers2{
+width: 100%;
+
+
+}
+
+.contenue{
+ display: flex;
+  flex-direction: column;
+align-items: center;
+gap: 20px;
+text-align: center;
+padding: 3rem 0rem 2rem 0rem;
+}
+
+.widthimg{
+  width: 170px;
+}
+
+.hrr{
+  border: 1px solid #dc4638;
+  width: 8%;
+}
+
+.font{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.color{
+  color: #dc4638;
+}
+
+.backcolor{
+  background-color: rgb(230, 222, 222);
+  height: 500px;
+}
+
+.center{
+  justify-content: center;
+}
+
+.flex{
+  display: flex;
+}
+
+.flexcolumn{
+  flex-direction: column;
+}
+
+.align{
+  align-items: center;
+}
+
+.fonttitle{
+  font-family: "Arvo", serif;
+}
+
+.sizefont{
+  font-size: 30px;
+}
+
+.gap{
+  gap: 10px;
+  padding: 3rem 0rem;
+}
+
+.rond{
+  width: fit-content;
+  height: fit-content;
+  padding: 15px;
+  background-color: #222222;
+  border-radius: 100%;
+}
+
+.tailleimg{
+  width: 50px;
+}
+
+.fff{
+  color: #ffffff;
+}
+
+.button2{
+  text-decoration: none;
+  color: #dc4638;
+  background-color: #ffffff;
+  padding: 3px 25px 3px 25px;
+  width: fit-content;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.textalign{
+  text-align: center;
+}
 
 /* Responsive Styling */
 
