@@ -139,7 +139,18 @@ padding: 3rem 0rem 2rem 0rem;
 
 .backcolor{
   background-color: rgb(230, 222, 222);
-  height: 500px;
+  padding-bottom: 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.widthex{
+  width: 36%;
+}
+
+.gap3{
+  gap: 3rem;
 }
 
 .center{
@@ -187,6 +198,10 @@ padding: 3rem 0rem 2rem 0rem;
   color: #ffffff;
 }
 
+.flex2{
+  display: flex;
+}
+
 .button2{
   text-decoration: none;
   color: #dc4638;
@@ -201,13 +216,103 @@ padding: 3rem 0rem 2rem 0rem;
   text-align: center;
 }
 
+.gap2{
+  gap: 10px;
+}
+
+.margintop{
+  margin-top: 10px;
+}
+
+.evenly{
+  justify-content: space-evenly;
+}
+
+.between{
+  justify-content: space-evenly;
+}
+
+.tailleimg2{
+  width: 60px;
+  height: 40px;
+}
+
+.tailleimg3{
+  width: 28px;
+}
+
+.containers3{
+  width: 80%;
+
+}
+
+footer{
+  background-color: #dc4638;
+  padding-top: 9rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+
+.displaynone{
+  display: none;
+}
+
+.txth1{
+  width: 69%;
+  text-align: center;
+}
+
+.marginmin{
+  margin-right: 1rem;
+}
+
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
+
+  .txth1{
+    width: 58%;
+  }
+
 }
 
 @media (max-width: 991px) {
+
+.txth2{
+width: 53%;
+}
+
+.flex2{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+.widthex{
+  width: 57%;
+}
+
 }
 
 @media (max-width: 767px) {
+
+.displaynone2{
+  display: none;
+}
+
+.displaynone{
+  display: block;
+}
+
+.txth2{
+  width: 93%;
+}
+
+.widthex{
+  width: 89%;
+}
+
 }
